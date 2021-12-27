@@ -1,0 +1,44 @@
+.intro {
+  background: url(../img/sections/intro.jpg) no-repeat center center / cover;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  &__inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  &__title {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $text-white;
+    margin-bottom: 33px;
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    height: 33px;
+    line-height: 33px;
+    text-decoration: none;
+    color: $text-white;
+    text-align: center;
+    border: 1px solid $text-white;
+    width: 200px;
+  }
+  .block {
+    position: absolute;
+    bottom: 3px;
+    left: 20px;
+    padding: 15px 30px;
+    background-color: $text-dark;
+    color: $text-white;
+  }
+}

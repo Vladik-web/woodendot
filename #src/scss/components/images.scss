@@ -1,0 +1,21 @@
+.images {
+  margin-bottom: 115px;
+  ul {
+    display: flex;
+    padding: 0;
+    li {
+      flex: 1 1 25%;
+      list-style: none;
+      height: 320px;
+      transition: 0.2s ease-in-out;
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+      &:hover {
+        flex: 1 1 40%;
+      }
+    }
+  }
+}
